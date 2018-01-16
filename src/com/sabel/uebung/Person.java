@@ -42,11 +42,8 @@ public class Person {
         System.out.println("Alter: " + alter);
     }
 
-    @Override
+
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", alter=" + alter +
-                '}';
+        return "Name: " + name + ", Alter: " + alter;
     }
 }

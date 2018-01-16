@@ -20,6 +20,7 @@ public class Schleifen {
             if (n % teiler == 0) { // teilt der Teiler die Zahl n ohne Rest, wenn ja, keine Primzahl
                 return false;
             }
+            teiler++;
         }
         // Wenn alle Teiler "getestet", dann ist n eine Primzahl
         return true;
